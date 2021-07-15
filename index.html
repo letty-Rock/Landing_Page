@@ -10,7 +10,21 @@
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
-    />
+    /><!--
+    <script>
+      function salvarForm() {
+        if (typeof Storage !== 'undefined') {
+          if (localStorage.cont) {
+            localStorage.cont = Number(localStorage.cont) + 1
+          } else {
+            localStorage.cont = 1
+          }
+          cad = document.getElementById('email').value
+          localStorage.setItem('cad_' + localStorage.cont, cad)
+        } else {
+        }
+      }
+    </script>-->
   </head>
   <body>
     <div class="container">
@@ -39,22 +53,19 @@
       </div>
       <div class="banner-right">
         <div>
-          <h1>No mês de Agosto teremos um site recheado de promoções</h1>
+          <h1>No mês de Agosto teremos um site recheado de promoções<br>Receba um cupom de <span>25% de desconto</h1>
         </div>
-
-        <form class="form">
-          Receba um cupom de <span>25% de desconto</span>
-          <br />
-
-          <input
-            class="quiz"
-            type="text"
-            name="email"
-            value="Insira seu e-mail"
-          />
-          <br />
-          <input type="button" value="Eu quero" />
-        </form>
+<div id="response">
+        <form id="form">
+         
+         
+          <input id="nome" type="text" placeholder="Insira seu nome" />
+         
+          <input id="email" type="text" placeholder="Insira seu e-mail" />
+       
+          
+         <input type="submit" value="Eu Quero">
+        </form></div>
       </div>
 
       <div class="footer">
@@ -63,7 +74,7 @@
             <td class="desc">
               Olha só os queridinhos.<br />Estão com 20% de desconto
             </td>
-            <td class="desc"></td>
+         
             <td><img src="assets/images/areia.jpg" alt="" /></td>
             <td><img src="assets/images/wiska.jpg" alt="" /></td>
             <td><img src="assets/images/pedigre.jpg" alt="" /></td>
@@ -72,4 +83,5 @@
       </div>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
