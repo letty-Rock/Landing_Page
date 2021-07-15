@@ -1,6 +1,8 @@
 @media (min-width: 1024px) {
   body {
     font-size: 12px;
+
+    /* background-image: url(/assets/images/fundo\ black.jpg);*/
   }
 }
 *,
@@ -12,7 +14,9 @@
 }
 body {
   background-color: #dc776f;
+  /* background-image: url(/assets/images/fundo\ black.jpg);*/
 }
+
 .container {
   max-width: 1128px;
 }
@@ -56,13 +60,22 @@ img {
   width: 400px;
   left: 100%;
   top: 10%;
+  background-color: black;
   position: relative;
   max-width: 100%;
   font: 400 1rem 'DN Sans', 'San Serif';
   justify-content: space-between;
+  border-radius: 80px;
+}
+.banner-right img {
+  height: 150px;
+  width: 400px;
+  position: relative;
+  border-radius: 40px;
 }
 .banner-right form {
   color: black;
+  margin-right: 40px;
   align-items: center;
 }
 span {
@@ -86,15 +99,22 @@ span {
 }
 
 #response {
+  margin-top: 40px;
+  margin-left: 70px;
   background-color: white;
   border-radius: 25px;
   padding: 5px;
   max-width: 250px;
+  align-items: center;
+  text-align: center;
 }
 input {
+  position: relative;
+  margin-top: 30px;
   width: 100%;
   height: 30px;
-  margin-bottom: 15px;
+
   text-align: center;
-  border-radius: 15px;
+  border-radius: 14px;
+  margin-left: 15px;
 }

@@ -14,6 +14,10 @@ form.addEventListener('submit', e => {
 
   let response = document.getElementById('response')
   let carregando = `<p>carregando...</p>`
-  let pronto = `<p>carregando....</p>`
+  let pronto = `<p>Enviamos seu cupom</p>`
   response.innerHTML = carregando
+
+  setTimeout(() => {
+    response.innerHTML = pronto
+  }, 1000)
 })
