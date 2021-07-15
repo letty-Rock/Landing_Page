@@ -27,20 +27,21 @@ img {
   width: 20.744680851064%;
   max-width: 100%;
 }
+
 .imagem {
   max-width: 100%;
-  height: 500px;
-  width: 200%;
-  background: url(/assets/images/catdrow.jpg);
-  position: relative;
+  position: fixed;
+  height: 190px;
+  width: 800px;
 }
 .banner-left .hi {
   left: 5px;
+  max-width: 100%;
   text-align: center;
   position: absolute;
-  font: 400 1.5rem 'DN Sans', 'San Serif';
-  color: black;
-  line-height: 30px;
+  font: 400 4rem 'DN Sans', 'San Serif';
+  color: #1c86ee;
+  line-height: 60px;
   top: 9%;
 }
 
@@ -59,7 +60,7 @@ img {
   align-items: center;
 }
 span {
-  font-size: 45px;
+  font-size: 25px;
   color: red;
 }
 
