@@ -1,19 +1,18 @@
-@media screen (max-width: 1100px) and (min-width: 400px) {
+@media screen (max-width: 1024px) and (min-width: 400px) {
   body {
-    font-size: 12px;
+    width: 100%;
   }
 }
 
 body {
-  height: 1100;
-  max-width: 100%;
-  width: 1900px;
   background-image: url(/assets/images/cartaz-festa17.jpg);
 }
 .left {
   background-image: url(/assets/images/images.png);
+  display: block;
   background-size: 15%;
-  width: 840px;
+  max-width: 800px;
+  width: 100%;
   height: 600px;
   top: 40px;
   border-radius: 200px;
@@ -21,7 +20,6 @@ body {
 
   align-items: center;
   position: relative;
-  max-width: 100%;
 }
 
 .logo {
@@ -38,70 +36,81 @@ body {
   line-height: 60px;
 }
 .imagem img {
+  display: block;
   max-width: 100%;
-  top: 100px;
-  left: 20px;
+  overflow: hidden;
+
+  top: 98px;
+  left: 1px;
   position: relative;
 }
 .banner-right {
   height: 500px;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
 
-  left: 1100px;
+  left: 1300px;
 
-  top: 15%;
-  background-color: black;
+  top: 200px;
+  background-color: ;
   position: absolute;
-  max-width: 100%;
+
   font: 400 1rem 'Amatic SC', cursive;
   justify-content: space-between;
   border-radius: 80px;
 }
 .banner-right img {
   height: 150px;
-  width: 400px;
+  max-width: 600px;
+  width: 100%;
 
   border-radius: 40px;
 }
-.form {
-  color: white;
-}
+
 span {
-  font-size: 25px;
+  font-family: 400 'Bebas Neue', cursive;
+  font-size: 49px;
   color: red;
 }
 
-#response {
+.form {
+  color: black;
+  font-size: 40px;
   display: block;
   position: relative;
   left: 45px;
-
-  border-radius: 25px;
-  padding: 5px;
-  max-width: 250px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 40px;
+  padding: 8px 15px;
+  max-width: 600px;
 }
 
 input {
-  position: relative;
+  box-shadow: inset 0px 1px 4px rgba(0 0 0 /75%);
+  padding: 8px 25px;
   padding: 2px;
-
+  width: 100%;
   font-size: 20px;
-  width: 290px;
-  height: 70px;
-  align-items: center;
 
-  border-radius: 150px;
-  margin-bottom: 25px;
+  height: 100%;
+
+  box-sizing: border-box;
+  border-radius: 200px;
+  border: 0;
+  margin: 10px 0;
 }
 
 #button {
-  text-align: center;
-  border: 5px solid red;
-  padding: 13px 20px;
-  max-width: 100%;
+  margin: 20px auto 10px auto;
+
+  max-width: 80%;
+  width: 100%;
   font: 400 1rem 'Cormorant Garamond', serif;
 
   font-size: 40px;
   font: bold;
-  background-color: ;
+  background-color: black;
+  color: white;
+  display: block;
 }
