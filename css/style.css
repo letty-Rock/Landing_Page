@@ -1,24 +1,26 @@
-@media screen (max-width: 600px) and (min-width:400px) {
+@media screen (max-width: 1100px) and (min-width: 400px) {
   body {
     font-size: 12px;
   }
 }
 
 body {
+  height: 1100;
+  max-width: 100%;
+  width: 1900px;
   background-image: url(/assets/images/cartaz-festa17.jpg);
-  
 }
-.container {
+.left {
   background-image: url(/assets/images/images.png);
- background-size: 15%;
- width: 1336px;
-  height: 1200px;
-  top: 100px;
- margin-right: 150px;
+  background-size: 15%;
+  width: 840px;
+  height: 600px;
+  top: 40px;
+  border-radius: 200px;
   margin-left: 150px;
-  bottom:100px;
+
   align-items: center;
-  position: absolute;
+  position: relative;
   max-width: 100%;
 }
 
@@ -26,37 +28,34 @@ body {
   width: 20.744680851064%;
   max-width: 100%;
 }
-.imagem{
-  max-width: 100%;
- top: 140px;
 
- left:20px ;20
-  position: relative;
-}
-
-.banner-left .hi {
+.hi {
   left: 100px;
- 
-  text-align: center;
+  top: 90px;
   position: relative;
-  font: 400 4rem 'Pacifico', cursive;
+  font: 400 4rem 'Dancing Script', cursive;
   color: #1c86ee;
   line-height: 60px;
-  top: 48px;
 }
-
+.imagem img {
+  max-width: 100%;
+  top: 100px;
+  left: 20px;
+  position: relative;
+}
 .banner-right {
   height: 500px;
   width: 400px;
-  left:950px;
-  top: 55%;
+
+  left: 1100px;
+
+  top: 15%;
   background-color: black;
-  position:absolute;
+  position: absolute;
   max-width: 100%;
-  font: 400 1rem'Amatic SC', cursive;
+  font: 400 1rem 'Amatic SC', cursive;
   justify-content: space-between;
   border-radius: 80px;
- 
 }
 .banner-right img {
   height: 150px;
@@ -66,63 +65,43 @@ body {
 }
 .form {
   color: white;
- right: : 150px;
-
 }
 span {
   font-size: 25px;
   color: red;
 }
-/*
-.footer {
-  width: 1700px;
-  right: 123px;
-  left: 123px;
-  background-color: white;
- height: 160px;
-  font: 400 3rem 'DN Sans', 'San Serif';
-  
-  position: absolute;
-  bottom: 0px;
-  max-width: 100%;
-  
-
- 
-}
-.footer img {
-  max-width: 100%;
-
-  left: 400%;
-}*/
 
 #response {
+  display: block;
   position: relative;
-  left: 83px;
-  width: 250px;
-  height: 300px;
-  
+  left: 45px;
+
   border-radius: 25px;
   padding: 5px;
   max-width: 250px;
-  align-items: center;
- 
 }
+
 input {
   position: relative;
-  padding: 15px;
+  padding: 2px;
 
   font-size: 20px;
-  width: 250px;
+  width: 290px;
   height: 70px;
   align-items: center;
-  text-align: center;
-  border-radius: 20px;
-  margin-bottom:25px;
+
+  border-radius: 150px;
+  margin-bottom: 25px;
 }
-#button{
-  font: 400 1rem  'Cormorant Garamond', serif;
+
+#button {
   text-align: center;
+  border: 5px solid red;
+  padding: 13px 20px;
+  max-width: 100%;
+  font: 400 1rem 'Cormorant Garamond', serif;
+
   font-size: 40px;
-font: bold;
-background-color: aquamarine;
+  font: bold;
+  background-color: ;
 }
