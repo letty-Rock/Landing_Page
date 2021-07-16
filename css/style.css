@@ -1,8 +1,6 @@
 @media (min-width: 1024px) {
   body {
     font-size: 12px;
-
-    /* background-image: url(/assets/images/fundo\ black.jpg);*/
   }
 }
 *,
@@ -13,38 +11,40 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #dc776f;
-  /* background-image: url(/assets/images/fundo\ black.jpg);*/
+ background-image: url(/assets/images/cartaz-festa17.jpg);
+  max-width: 1366px;
+  width: 1366px;
+  height: 826px;
+  top: 2408px;
+  left: -1px;
+ ;
 }
-
-.container {
-  max-width: 1128px;
-}
-img {
+.container  {
+ background-image: url(/assets/images/images.png
+ );
+ 
+ width: 1700px;
+ height: 900px;
+  top: 40px;
+  left: 123px;
+  bottom: 230px;
+  right: 123px;
+  position: fixed;*/
   max-width: 100%;
 }
-.header {
-  width: 100%;
-  height: 48px;
-}
+
+
 .logo {
   width: 20.744680851064%;
   max-width: 100%;
 }
 
-.imagem {
-  max-width: 100%;
-  position: fixed;
-  height: 190px;
-  width: 800px;
-  left: 0;
-  background-size: contain;
-}
+
 .banner-left {
   display: inline-block;
   position: relative;
 }
-.banner-left .imagem .hi {
+.banner-left  .hi {
   left: 5px;
   max-width: 100%;
   text-align: center;
@@ -58,7 +58,7 @@ img {
 .banner-right {
   height: 500px;
   width: 400px;
-  left: 100%;
+  left: 1100px;
   top: 10%;
   background-color: black;
   position: relative;
@@ -74,7 +74,7 @@ img {
   border-radius: 40px;
 }
 .banner-right form {
-  color: black;
+  color: white;
   margin-right: 40px;
   align-items: center;
 }
@@ -82,7 +82,7 @@ span {
   font-size: 25px;
   color: red;
 }
-
+/*
 .footer {
   background-color: white;
   width: 100%;
@@ -96,25 +96,29 @@ span {
 }
 .footer img {
   max-width: 100%;
-}
+
+  left: 400%;
+}*/
 
 #response {
-  margin-top: 40px;
-  margin-left: 70px;
-  background-color: white;
+
+ height: 350px;
+  background-color: black;
   border-radius: 25px;
   padding: 5px;
   max-width: 250px;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 input {
   position: relative;
   margin-top: 30px;
+ 
   width: 100%;
-  height: 30px;
-
+  height: 40px;
+align-items: center;
   text-align: center;
-  border-radius: 14px;
-  margin-left: 15px;
+  border-radius: 20px;
+  margin-left: 40px;
 }
