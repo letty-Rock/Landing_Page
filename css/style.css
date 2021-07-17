@@ -3,11 +3,25 @@
     width: 100%;
   }
 }
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 body {
+  display: block;
+  overflow: hidden;
   background-image: url(/assets/images/cartaz-festa17.jpg);
 }
-.left {
+.banner-left {
   background-image: url(/assets/images/images.png);
   display: block;
   background-size: 15%;
@@ -53,7 +67,7 @@ body {
 
   top: 200px;
   background-color: ;
-  position: absolute;
+  position: fixed;
 
   font: 400 1rem 'Amatic SC', cursive;
   justify-content: space-between;
