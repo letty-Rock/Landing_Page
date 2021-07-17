@@ -68,13 +68,14 @@ body {
 }
 
 span {
+  box-shadow: inset 0px 1px 4px rgba(0 0 0 /75%);
   font-family: 400 'Bebas Neue', cursive;
   font-size: 49px;
-  color: red;
+  color: black;
 }
 
-.form {
-  color: black;
+#response {
+  color: white;
   font-size: 40px;
   display: block;
   position: relative;
@@ -106,11 +107,15 @@ input {
 
   max-width: 80%;
   width: 100%;
-  font: 400 1rem 'Cormorant Garamond', serif;
+  font-family: 400 'Bebas Neue', cursive;
 
   font-size: 40px;
   font: bold;
   background-color: black;
   color: white;
   display: block;
+}
+
+Response.innerHTML {
+  font-family: 400 'Bebas Neue', cursive;
 }
