@@ -1,34 +1,29 @@
 @media screen (max-width: 1024px) and (min-width: 400px) {
   body {
+    display:block
     width: 100%;
   }
 }
 .container {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-content: center;
+  justify-content: space-around;
+  align-content: flex-start;
   align-items: center;
-}
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 body {
-  display: block;
   overflow: hidden;
   background-image: url(/assets/images/cartaz-festa17.jpg);
 }
 .banner-left {
+  order: 2;
   background-image: url(/assets/images/images.png);
-  display: block;
+  overflow: hidden;
   background-size: 15%;
   max-width: 800px;
   width: 100%;
-  height: 600px;
-  top: 40px;
+
   border-radius: 200px;
   margin-left: 150px;
 
@@ -37,41 +32,38 @@ body {
 }
 
 .logo {
-  width: 20.744680851064%;
+ 
   max-width: 100%;
 }
 
 .hi {
-  left: 100px;
+  overflow: hidden;
+  left: 15px;
   top: 90px;
   position: relative;
-  font: 400 4rem 'Dancing Script', cursive;
+  font: 400 3rem 'Dancing Script', cursive;
   color: #1c86ee;
   line-height: 60px;
 }
 .imagem img {
-  display: block;
   max-width: 100%;
   overflow: hidden;
 
-  top: 98px;
+  top: 40px;
   left: 1px;
   position: relative;
 }
 .banner-right {
-  height: 500px;
+  overflow: hidden;
+  height: 590px;
+  background-color: ;
   max-width: 400px;
   width: 100%;
 
-  left: 1300px;
-
-  top: 200px;
   background-color: ;
-  position: fixed;
-
+align-items: center;
   font: 400 1rem 'Amatic SC', cursive;
   justify-content: space-between;
-  border-radius: 80px;
 }
 .banner-right img {
   height: 150px;
@@ -91,11 +83,10 @@ span {
 #response {
   color: white;
   font-size: 40px;
-  display: block;
+
   position: relative;
-  left: 45px;
-  width: 100%;
-  overflow: hidden;
+
+
   border-radius: 40px;
   padding: 8px 15px;
   max-width: 600px;
@@ -104,7 +95,7 @@ span {
 input {
   box-shadow: inset 0px 1px 4px rgba(0 0 0 /75%);
   padding: 8px 25px;
-  padding: 2px;
+ 
   width: 100%;
   font-size: 20px;
 
@@ -124,12 +115,7 @@ input {
   font-family: 400 'Bebas Neue', cursive;
 
   font-size: 40px;
-  font: bold;
+ 
   background-color: black;
   color: white;
-  display: block;
-}
-
-Response.innerHTML {
-  font-family: 400 'Bebas Neue', cursive;
 }
