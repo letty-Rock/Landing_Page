@@ -1,6 +1,6 @@
-@media screen (max-width: 1024px) and (min-width: 400px) {
+@media screen (max-width: 1024px) {
   body {
-    width: 100%;
+    font-size: 62.5%;
   }
 }
 .container {
