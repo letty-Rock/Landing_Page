@@ -1,6 +1,6 @@
 @media screen (max-width: 1024px) and (min-width: 400px) {
   body {
-    display:block
+    display: block;
     width: 100%;
   }
 }
@@ -10,16 +10,16 @@
   justify-content: space-around;
   align-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 body {
-  overflow: hidden;
   background-image: url(/assets/images/cartaz-festa17.jpg);
 }
 .banner-left {
   order: 2;
   background-image: url(/assets/images/images.png);
-  overflow: hidden;
+
   background-size: 15%;
   max-width: 800px;
   width: 100%;
@@ -28,16 +28,13 @@ body {
   margin-left: 150px;
 
   align-items: center;
-  position: relative;
 }
 
 .logo {
- 
   max-width: 100%;
 }
 
 .hi {
-  overflow: hidden;
   left: 15px;
   top: 90px;
   position: relative;
@@ -47,7 +44,6 @@ body {
 }
 .imagem img {
   max-width: 100%;
-  overflow: hidden;
 
   top: 40px;
   left: 1px;
@@ -61,7 +57,7 @@ body {
   width: 100%;
 
   background-color: ;
-align-items: center;
+  align-items: center;
   font: 400 1rem 'Amatic SC', cursive;
   justify-content: space-between;
 }
@@ -86,8 +82,6 @@ span {
 
   position: relative;
 
-
-  border-radius: 40px;
   padding: 8px 15px;
   max-width: 600px;
 }
@@ -95,7 +89,7 @@ span {
 input {
   box-shadow: inset 0px 1px 4px rgba(0 0 0 /75%);
   padding: 8px 25px;
- 
+
   width: 100%;
   font-size: 20px;
 
@@ -115,7 +109,7 @@ input {
   font-family: 400 'Bebas Neue', cursive;
 
   font-size: 40px;
- 
+
   background-color: black;
   color: white;
 }
