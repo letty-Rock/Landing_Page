@@ -19,6 +19,7 @@ body {
   order: 2;
   background-image: url(/assets/images/images.png);
 
+  overflow: hidden;
   background-size: 15%;
   max-width: 800px;
   width: 100%;
@@ -34,6 +35,7 @@ body {
 }
 
 .hi {
+  overflow: hidden;
   left: 70px;
   top: 90px;
   position: relative;
