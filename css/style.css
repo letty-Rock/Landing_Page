@@ -21,7 +21,8 @@ body {
   background-image: url(/assets/images/images.png);
 }
 
-.logo {
+.logo img {
+  border-radius: 48px;
   max-width: 100%;
 }
 
