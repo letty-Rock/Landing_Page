@@ -17,6 +17,8 @@ body {
 }
 .banner-left {
   order: 2;
+  border-radius: 10px;
+  background-image: url(/assets/images/images.png);
 }
 
 .logo {
@@ -24,8 +26,6 @@ body {
 }
 
 .hi {
-  background-image: url(/assets/images/images.png);
-
   position: relative;
   font: 400 3rem 'Amatic SC', cursive;
   color: #1c86ee;
