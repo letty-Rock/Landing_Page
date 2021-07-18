@@ -16,6 +16,7 @@ body {
   background-image: url(/assets/images/cartaz-festa17.jpg);
 }
 .banner-left {
+order:2;
   border-radius: 10px;
   background-image: url(/assets/images/images.png);
 }
