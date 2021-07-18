@@ -17,17 +17,6 @@ body {
 }
 .banner-left {
   order: 2;
-  background-image: url(/assets/images/images.png);
-
-  overflow: hidden;
-  background-size: 15%;
-  max-width: 800px;
-  width: 100%;
-
-  border-radius: 200px;
-  margin-left: 150px;
-
-  align-items: center;
 }
 
 .logo {
@@ -35,20 +24,12 @@ body {
 }
 
 .hi {
-  overflow: hidden;
-  left: 70px;
-  top: 90px;
+  background-image: url(/assets/images/images.png);
+
   position: relative;
-  font: 400 3rem 'Dancing Script', cursive;
+  font: 400 3rem 'Amatic SC', cursive;
   color: #1c86ee;
   line-height: 60px;
-}
-.imagem img {
-  max-width: 100%;
-  border-radius: 10;
-  top: 5px;
-  left: 390px;
-  position: relative;
 }
 .banner-right {
   overflow: hidden;
